@@ -9,21 +9,21 @@ body{
 }
 
                                         @media all and (max-width:767px) {
-    
-    .navlogo{
-        width: 85px;
-        height: 45px;
-        background-image: url("../images/bugatti-logo-sm.webp");
-        vertical-align: middle;
-        
-    }
+.middle-position{
+ width: 80px;
+ text-align: center;
+ position: absolute;
+ left: 50%;
+ margin-left: -40px;
+   top: 0;
+     }
+ .navbar-bg{
+  background-image: url("../images/navbar-background.webp");
+  background-position: center;
+    }  
     .navspan{
         visibility: hidden;
-    }
-    
-    
-    
-    
+    }                                   
     .firstbgi{
          width: 100%;
         height: 500px; 
@@ -167,14 +167,19 @@ body{
 
 }
 
-                                   @media all and (min-width:768px) and (max-width:1199px){
-    .navlogo{
-        width: 85px;
-        height: 45px;
-        background-image: url("../images/bugatti-logo-sm.webp");
-        background-repeat: no-repeat;
-        vertical-align: middle;
-    }
+                              @media all and (min-width:768px) and (max-width:1199px){
+    .middle-position{
+        width: 80px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        top: 0;
+      }
+      .navbar-bg{
+        background-image: url("../images/navbar-background.webp");
+        background-position: center;
+      }
 .firstbgi{
     width: 100%;
     height: 500px; 
@@ -317,15 +322,19 @@ height: 300px;
 
 }
 
-                                            @media all and (min-width:1199px)  {
-    .navlogo{
-        width: 85px;
-        height: 45px;
-        background-image: url("../images/bugatti-logo-sm.webp");
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        
-    }
+                                   @media all and (min-width:1199px)  {
+    .middle-position{
+        width: 80px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        top: 0;
+      }
+      .navbar-bg{
+        background-image: url("../images/navbar-background.webp");
+        background-position: center;
+      }
 .firstbgi{
     width: 100%;
     height: 500px; 
