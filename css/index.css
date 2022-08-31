@@ -136,12 +136,18 @@ body{
       .custom-hover:hover img {
         filter: brightness(50%);
       }
-      .custom-hover a{
+      .custom-hover p{
       visibility: hidden;
       }
-      .custom-hover:hover a{
+      .custom-hover:hover p{
         visibility: visible;
+        cursor: pointer;
         }
+        .hearticon{
+            direction: rtl;
+            color: white;
+            padding-right: 10px; 
+          }
         .middlebox{
             width: 200px;
             margin-right: auto;
@@ -323,12 +329,18 @@ height: 300px;
   .custom-hover:hover img {
     filter: brightness(50%);
   }
-  .custom-hover a{
+  .custom-hover p{
   visibility: hidden;
   }
-  .custom-hover:hover a{
+  .custom-hover:hover p{
     visibility: visible;
+    cursor: pointer;
     }
+    .hearticon{
+        direction: rtl;
+        color: white;
+        padding-right: 10px; 
+      }
     .middlebox{
         width: 200px;
         margin-right: auto;
@@ -519,12 +531,18 @@ height: 300px;
   .custom-hover:hover img {
     filter: brightness(50%);
   }
-  .custom-hover a{
+  .custom-hover p{
   visibility: hidden;
   }
-  .custom-hover:hover a{
+  .custom-hover:hover p{
     visibility: visible;
+    cursor: pointer;
     }
+    .hearticon{
+        direction: rtl;
+        color: white;
+        padding-right: 10px; 
+      }
     .middlebox{
         width: 200px;
         margin-right: auto;
