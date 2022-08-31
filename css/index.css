@@ -75,6 +75,13 @@ body{
     font-size: 20px;
     font-weight: bold;
   }
+  .news-image{
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
       .top-padding-smallsize{
         padding-top: 10px;
       } 
@@ -258,6 +265,13 @@ body{
     font-size: 20px;
     font-weight: bold;
   }
+  .news-image{
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
   .link{
     text-decoration: none;
     
