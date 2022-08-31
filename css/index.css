@@ -70,6 +70,11 @@ body{
     opacity: 4;
     color: white;
 }
+.arrow{
+    direction: rtl;
+    font-size: 20px;
+    font-weight: bold;
+  }
       .top-padding-smallsize{
         padding-top: 10px;
       } 
@@ -248,6 +253,11 @@ body{
     opacity: 4;
     color: white;
 }
+.arrow{
+    direction: rtl;
+    font-size: 20px;
+    font-weight: bold;
+  }
   .link{
     text-decoration: none;
     
@@ -444,13 +454,11 @@ padding-left: 0;
     opacity: 4;
     color: white;
 }
-
-
-
-  .custom-padding-universe{
-    padding-left: 5px;
-    padding-right: 5px;
- }
+.arrow{
+    direction: rtl;
+    font-size: 20px;
+    font-weight: bold;
+  }
  .link{
     text-decoration: none;
     
