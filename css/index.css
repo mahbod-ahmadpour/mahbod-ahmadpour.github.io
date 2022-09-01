@@ -1,604 +1,272 @@
 
 body{
-    height: 3000px;
+height: 3000px;
 }
 .scroll{
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
     
 }
-
-                                        @media all and (max-width:767px) {
 .middle-position{
- width: 80px;
- text-align: center;
- position: absolute;
- left: 50%;
- margin-left: -40px;
-   top: 0;
-     }
- .navbar-bg{
-  background-image: url("../images/navbar-background.webp");
-  background-position: center;
-    }  
-    .navspan{
-        visibility: hidden;
-    }                                   
-    .firstbgi{
-         width: 100%;
-        height: 500px; 
-        background-image: url("../images/bugatti-chiron-sm.webp");
-        background-position: center;
-    }
-    .custom-padding{
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .absolute-position {
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        z-index: 2;
-        width: 100%;
-        height: 100%;
-        padding-left: 10px;
-        text-decoration: none;
-        font-family: sans-serif;
-        font-size: calc(11px + 0.5vw);
-       
-      }
-      .relative-position{
-        position: relative;
-      }
-      .box1{
-        height: 395px;    
-    }
-    .box3{
-        height: 790px;
-    }
- .remove-padding-models {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-.image-box{
-    height: 30px;
-    background-color: black;
-    opacity: 0.5;
+width: 80px;
+text-align: center;
+position: absolute;
+left: 50%;
+margin-left: -40px;
+top: 0;
 }
-.image-p{
-    opacity: 4;
-    color: white;
-}
-.arrow{
-    direction: rtl;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .news-image{
-    width: 600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-      .top-padding-smallsize{
-        padding-top: 10px;
-      } 
-      .link{
-        text-decoration: none;
-        
-    }
-    .link:hover{
-        text-decoration: underline; 
-    }  
-    .buggatitext-box{
-        height: 200px;
-    }
-    .buggatipic-box{
-    height: 300px;
-    }
-    .newspic1{
-        order:1 ;
-    }
-    .newstext1{
-        order:2 ;
-    }
-    .newspic2{
-        order:3;
-    }.newstext2{
-        order:4;
-    }.newspic3{
-        order:5;
-    }.newstext3{
-        order:6 ;
-    }
-    .viewmore-box{
-        width: 100px;
-        height: 40px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .box1{
-        height: 400px;
-    }
-    .remove-padding{
-        padding-left: 0;
-        padding-right: 0;
-    }
-    
-      .custom-hover img {
-        filter: brightness(100%);
-        transition: all 10ms linear 0s;
-        
-      }
-    
-      .custom-hover:hover img {
-        filter: brightness(50%);
-      }
-      .custom-hover p{
-      visibility: hidden;
-      }
-      .custom-hover:hover p{
-        visibility: visible;
-        cursor: pointer;
-        }
-        .hearticon{
-            direction: rtl;
-            color: white;
-            padding-right: 10px; 
-          }
-        .middlebox{
-            width: 200px;
-            margin-right: auto;
-            margin-left: auto;
-            text-align: center;
-            color: grey;
-          
-          }
-          .fuelbox{
-            width: 100%;
-            height: 1300px;
-            background-color: #f5f5f5;
-        }
-        .fuelbox-1{
-            width: 700px;
-            height: 80px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .fuel-p{
-            text-align: center;
-        }
-        .bolidepic{
-            padding-left: 250px;
-        }
-        .lower-navbox{
-            width: 100%;
-            height: 250px;
-        }
-        .custom-padding-lower-navbox{
-            padding-left: 10px;
-            padding-right: 10px;
-            
-        }
-        .lowernav-p{
-            text-align: center;
-            font-size: 11px;
-            color: #a2a2a2;
-        }
-        .lowernav-link{
-            font-size: 12px;
-            color: #a2a2a2;
-        }
-        .lowernav-link:hover{
-            text-decoration: underline;
-            color: #a2a2a2;
-        }
-        .custom-icon{
-            color: white;
-            transition: all 200ms linear 0s;
-        }
-        .custom-icon:hover{
-            color: #a2a2a2;
-        }
-
-}
-
-                              @media all and (min-width:768px) and (max-width:1199px){
-    .middle-position{
-        width: 80px;
-        text-align: center;
-        position: absolute;
-        left: 50%;
-        margin-left: -40px;
-        top: 0;
-      }
-      .navbar-bg{
-        background-image: url("../images/navbar-background.webp");
-        background-position: center;
-      }
-.firstbgi{
-    width: 100%;
-    height: 500px; 
-    background-image: url("../images/bugatti-chiron-md.webp");
-    background-position: center;
-    
-
-}
-.custom-padding{
-    padding-left: 5px;
-    padding-right: 5px;
+.navbar-bg{
+background-image: url("../images/navbar-background.webp");
+background-position: center;
 }
 .absolute-position {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    z-index: 2;
-    width: 100%;
-    height: 100%;
-    padding-left: 10px;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: calc(11px + 0.5vw);
+position: absolute;
+bottom: 0px;
+left: 0px;
+z-index: 2;
+width: 100%;
+height: 100%;
+padding-left: 10px;
+text-decoration: none;
+font-family: sans-serif;
+font-size: calc(11px + 0.5vw);
    
-  }
-  .relative-position{
-    position: relative;
-  }
-  .box1{
-    height: 395px;    
+}
+.relative-position{
+position: relative;
+}
+.custom-button{
+background-color: black;
+border-radius: 2px;
+color: white;
+}
+.custom-button:hover{
+background-color: white;
+color: black;
+}
+.box1{
+height: 395px;    
 }
 .box3{
-    height: 800px;
+height: 790px;
 }
- .remove-padding-models {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
+.remove-padding-models {
+padding-left: 0px;
+padding-right: 0px;
+}
 .image-box{
-    height: 30px;
-    background-color: black;
-    opacity: 0.5;
+height: 30px;
+background-color: black;
+opacity: 0.5;
 }
 .image-p{
-    opacity: 4;
-    color: white;
+opacity: 4;
+color: white;
 }
 .arrow{
-    direction: rtl;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .news-image{
-    width: 600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    
+direction: rtl;
+font-size: 20px;
+font-weight: bold;
 }
-  .link{
-    text-decoration: none;
-    
+.link{
+text-decoration: none;    
 }
 .link:hover{
-    text-decoration: underline; 
-}
+text-decoration: underline; 
+}  
 .buggatitext-box{
-    height: 200px;
+height: 200px;
 }
 .buggatipic-box{
 height: 300px;
 }
-.newspic1{
-    order: 1;
-}
-.newstext1{
-    order: 2;
-}
-.newspic2{
-    order: 3;
-}.newstext2{
-    order: 4;
-}.newspic3{
-    order: 5;
-}.newstext3{
-    order: 6;
-}
 .viewmore-box{
-    width: 100px;
-    height: 40px;
-    margin-right: auto;
-    margin-left: auto;
+width: 250px;
+height: 40px;
+margin-right: auto;
+margin-left: auto;
+border-top: 1px solid grey;
+text-align: center;
 }
 .box1{
-    height: 400px;
+height: 400px;
 }
 .remove-padding{
-    padding-left: 0;
-    padding-right: 0;
+padding-left: 0;
+padding-right: 0;
 }
-
-  .custom-hover img {
-    filter: brightness(100%);
-    transition: all 10ms linear 0s;
+.custom-hover img {
+filter: brightness(100%);
+transition: all 10ms linear 0s; 
+}
+.custom-hover:hover img {
+filter: brightness(50%);
+}
+.custom-hover p{
+visibility: hidden;
+}
+.custom-hover:hover p{
+visibility: visible;
+cursor: pointer;
+}
+.hearticon{
+direction: rtl;
+color: white;
+padding-right: 10px; 
+}
+.middlebox{
+width: 200px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+color: grey;
+}
+.fuelbox{
+width: 100%;
+height: 1300px;
+background-color: #f5f5f5;
+}
+.fuelbox-1{
+width: 700px;
+height: 80px;
+margin-left: auto;
+margin-right: auto;
+}
+.fuel-p{
+text-align: center;
+}
+.bolidepic{
+padding-left: 250px;
+}
+.lower-navbox{
+width: 100%;
+height: 250px;
+}
+.custom-padding-lower-navbox{
+padding-left: 10px;
+padding-right: 10px;
     
-  }
-
-  .custom-hover:hover img {
-    filter: brightness(50%);
-  }
-  .custom-hover p{
-  visibility: hidden;
-  }
-  .custom-hover:hover p{
-    visibility: visible;
-    cursor: pointer;
-    }
-    .hearticon{
-        direction: rtl;
-        color: white;
-        padding-right: 10px; 
-      }
-    .middlebox{
-        width: 200px;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-        color: grey;
-      
-      }
-      .fuelbox{
-        width: 100%;
-        height: 1300px;
-        background-color: #f5f5f5;
-    }
-    .fuelbox-1{
-        width: 700px;
-        height: 80px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .fuel-p{
-        text-align: center;
-    }
-    .bolidepic{
-        padding-left: 250px;
-    }
-    .lower-navbox{
-        width: 100%;
-        height: 250px;
-    }
-    .custom-padding-lower-navbox{
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-    .lowernav-p{
-        text-align: center;
-        font-size: 11px;
-        color: #a2a2a2;
-    }
-    .lowernav-link{
-        font-size: 12px;
-        color: #a2a2a2;
-    }
-    .lowernav-link:hover{
-        text-decoration: underline;
-        color: #a2a2a2;
-    }
-    .custom-icon{
-        color: white;
-        transition: all 200ms linear 0s;
-    }
-    .custom-icon:hover{
-        color: #a2a2a2;
-    }
-
 }
-
-                                   @media all and (min-width:1199px)  {
-    .middle-position{
-        width: 80px;
-        text-align: center;
-        position: absolute;
-        left: 50%;
-        margin-left: -40px;
-        top: 0;
-      }
-      .navbar-bg{
-        background-image: url("../images/navbar-background.webp");
-        background-position: center;
-      }
+.lowernav-p{
+text-align: center;
+font-size: 11px;
+color: #a2a2a2;
+}
+.lowernav-link{
+font-size: 12px;
+color: #a2a2a2;
+}
+.lowernav-link:hover{
+text-decoration: underline;
+color: #a2a2a2;
+}
+.custom-icon{
+color: white;
+transition: all 200ms linear 0s;
+}
+.custom-icon:hover{
+color: #a2a2a2;
+}
+@media all and (max-width:767px) {
 .firstbgi{
-    width: 100%;
-    height: 500px; 
-    background-image: url("../images/bugatti-chiron-lg.webp");
-    background-position: center;
+width: 100%;
+height: 500px; 
+background-image: url("../images/bugatti-chiron-sm.webp");
+background-position: center;
+}  
+.navspan{
+visibility: hidden;
+}                                      
+.custom-padding{
+padding-left: 5px;
+padding-right: 5px;
 }
-.custom-button{
-    background-color: black;
-    border-radius: 2px;
-    color: white;
+.news-image{
+width: 600px;
+height: 600px;
+margin-left: auto;
+margin-right: auto;   
 }
-.custom-button:hover{
-    background-color: white;
-    color: black;
+.top-padding-smallsize{
+padding-top: 10px;
+}    
+.newspic1{
+order:1 ;
 }
-.firstp{
-    font-size: 50px;
+.newstext1{
+order:2 ;
+}
+.newspic2{
+order:3;
+}.newstext2{
+ order:4;
+}.newspic3{
+order:5;
+}.newstext3{
+order:6 ;
+}        
+}
+@media all and (min-width:768px) and (max-width:1199px){
+.firstbgi{
+width: 100%;
+height: 500px; 
+background-image: url("../images/bugatti-chiron-md.webp");
+background-position: center;
+}      
+.custom-padding{
+padding-left: 5px;
+padding-right: 5px;
+}
+.news-image{
+width: 600px;
+height: 600px;
+margin-left: auto;
+margin-right: auto;   
+}
+.newspic1{
+order: 1;
+}
+.newstext1{
+order: 2;
+}
+.newspic2{
+order: 3;
+}.newstext2{
+order: 4;
+}.newspic3{
+order: 5;
+}.newstext3{
+order: 6;
+}
 }
 
+@media all and (min-width:1199px)  {
+.firstbgi{
+width: 100%;
+height: 500px; 
+background-image: url("../images/bugatti-chiron-lg.webp");
+background-position: center;
+}  
+.firstp{
+ font-size: 50px;
+}
 .custom-padding-left{
-    padding-left: 20px;
-    
+padding-left: 20px;  
 }
 .custom-padding-right{
-    padding-right: 30px;
-    
+padding-right: 30px; 
 }
 .remove-padding-left{
 padding-left: 0;
 }
 .remove-padding-right{
-    padding-right: 0;
-    }
-.absolute-position {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    z-index: 2;
-    width: 100%;
-    height: 100%;
-    padding-left: 10px;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: calc(11px + 0.5vw);
-   
-  }
-  .relative-position{
-    position: relative;
-  }
-  .box1{
-    height: 395px;    
-}
-.box3{
-    height: 800px;
-}
-.remove-padding-models {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-.image-box{
-    height: 30px;
-    background-color: black;
-    opacity: 0.5;
-}
-.image-p{
-    opacity: 4;
-    color: white;
-}
-.arrow{
-    direction: rtl;
-    font-size: 20px;
-    font-weight: bold;
-  }
- .link{
-    text-decoration: none;
-    
-}
-.link:hover{
-    text-decoration: underline; 
+padding-right: 0;
 }
 .newsbox{
-    font-size: calc(11px + 0.5vw);
-    height: 500px;
+font-size: calc(11px + 0.5vw);
+height: 500px;
 }
-.newspic{
-    
-    height: 500px;
+.newspic{   
+height: 500px;
 }
-.buggatitext-box{
-    height: 200px;
-}
-.buggatipic-box{
-height: 300px;
-}
-.viewmore-box{
-    width: 250px;
-    height: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    border-top: 1px solid grey;
-    text-align: center;
-}
-.box1{
-    height: 400px;
-}
-.remove-padding{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-  .custom-hover img {
-    filter: brightness(100%);
-    transition: all 10ms linear 0s;
-    
-  }
-
-  .custom-hover:hover img {
-    filter: brightness(50%);
-  }
-  .custom-hover p{
-  visibility: hidden;
-  }
-  .custom-hover:hover p{
-    visibility: visible;
-    cursor: pointer;
-    }
-    .hearticon{
-        direction: rtl;
-        color: white;
-        padding-right: 10px; 
-      }
-    .middlebox{
-        width: 200px;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-        color: grey;
-      
-      }
-      .fuelbox{
-        width: 100%;
-        height: 1300px;
-        background-color: #f5f5f5;
-    }
-    .fuelbox-1{
-        width: 700px;
-        height: 80px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .fuel-p{
-        text-align: center;
-    }
-    .bolidepic{
-        padding-left: 250px;
-    }
-    .lower-navbox{
-        width: 100%;
-        height: 250px;
-    }
-    .custom-padding-lower-navbox{
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-    .lowernav-p{
-        text-align: center;
-        font-size: 11px;
-        color: #a2a2a2;
-    }
-    .lowernav-link{
-        font-size: 12px;
-        color: #a2a2a2;
-    }
-    .lowernav-link:hover{
-        text-decoration: underline;
-        color: #a2a2a2;
-    }
-    .custom-icon{
-        color: white;
-        transition: all 200ms linear 0s;
-    }
-    .custom-icon:hover{
-        color: #a2a2a2;
-    }
-   
-  
- 
-
 }
